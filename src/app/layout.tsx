@@ -36,14 +36,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://synapse-ai.vercel.app",
+    url: "https://synapseai-olive.vercel.app",
     title: "Synapse AI — Next-Gen Data Automation Platform",
     description:
       "Enterprise-grade AI data automation. Self-healing pipelines, 50+ connectors, sub-10ms execution. Scale from startup to enterprise without re-architecting.",
     siteName: "Synapse AI",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://synapseai-olive.vercel.app/og-image.png",
         width: 1200,
         height: 630,
         alt: "Synapse AI Platform Preview",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     creator: "@synapseai",
   },
   alternates: {
-    canonical: "https://synapse-ai.vercel.app",
+    canonical: "https://synapseai-olive.vercel.app",
   },
 };
 
@@ -102,7 +102,7 @@ export default function RootLayout({
                 highPrice: "199",
               },
               operatingSystem: "Web",
-              url: "https://synapse-ai.vercel.app",
+              url: "https://synapseai-olive.vercel.app",
             }),
           }}
         />
