@@ -10,16 +10,15 @@ import { useScrollReveal } from "@/lib/useScrollReveal";
 export default function Home() {
   useScrollReveal();
 
-  return (
-    <>
-      <Nav />
-      <main id="main-content">
-        <Hero />
-        <FeaturesSection />
-        <SocialProof />
-        <PricingSection />
-      </main>
+ return (
+  <>
+    <Nav />
+    <main id="main-content">
+      <Hero />
+      <FeaturesSection />
+      <PricingSection />
+      <SocialProof />
       <Footer />
-    </>
-  );
-}
+    </main>
+  </>
+)
