@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://synapse-ai.vercel.app"),
+  metadataBase: new URL("https://synapseai-olive.vercel.app"),
   title: {
     default: "Synapse AI — Next-Gen Data Automation Platform",
     template: "%s | Synapse AI",
